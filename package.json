@@ -1,6 +1,18 @@
 {
+  "name": "webdb-challenge",
+  "version": "1.0.0",
+  "description": "Webdb sprint-challenge",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "server": "nodemon index.js"
+  },
+  "repository": "https://github.com/droneal11015/webdb-challenge.git",
+  "author": "Dani O'Neal <droneal11015@gmail.com>",
+  "license": "None",
   "dependencies": {
     "cors": "^2.8.5",
+    "dotenv": "^8.0.0",
     "express": "^4.17.1",
     "helmet": "^3.18.0",
     "knex": "^0.17.6",

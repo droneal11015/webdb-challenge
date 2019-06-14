@@ -7,8 +7,8 @@ server.use(cors());
 server.use(helmet());
 server.use(express.json());
 
-const projectsRouter = require('./Routes/projects.js');
-const actionsRouter = require('./Routes/actions.js');
+const projectsRouter = require('./routes/projects.js');
+const actionsRouter = require('./routes/actions.js');
 
 server.use('/api/projects', projectsRouter);
 server.use('/api/actions', actionsRouter);
