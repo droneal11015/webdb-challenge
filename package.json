@@ -5,11 +5,11 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "server": "nodemon index.js"
+    "server": "node index.js"
   },
   "repository": "https://github.com/droneal11015/webdb-challenge.git",
   "author": "Dani O'Neal <droneal11015@gmail.com>",
-  "license": "None",
+  
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^8.0.0",
@@ -19,6 +19,7 @@
     "knex-cleaner": "^1.1.4",
     "node": "^12.4.0",
     "nodemon": "^1.19.1",
+    "schema": "^0.2.1",
     "sqlite3": "^4.0.9"
   }
 }
